@@ -1,0 +1,25 @@
+Solução algorítmica dissertativa da tabuada do 9
+
+#Entrada:
+O usuário é solicitado a inserir um número 
+n entre 0 e 10, que será utilizado para o cálculo.
+Leia-se e armazena-se o numero digitado
+
+#Processamento:
+Primeiramente, calcula-se o primeiro dígito (Digito1) subtraindo 1 do número fornecido n, e esse resultado é armazenado em Digito1.
+Em seguida, calcula-se o segundo dígito (Digito2) subtraindo n de 10, e esse resultado é armazenado em Digito2.
+Para determinar a dezena da multiplicação de 9 por n, multiplica-se Digito1 por 10, e o resultado é armazenado novamente em Digito1.
+Para determinar o resultado da multiplicação de 9 por n, soma-se 
+Digito1 com Digito2, e armazena-se o Resultado.
+
+3Saída:
+Exibe-se o resultado final da multiplicação: 
+9×n=Resultado
+
+
+
+
+
+
+
+
