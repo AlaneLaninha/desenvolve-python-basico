@@ -1,0 +1,14 @@
+#Entrada
+1- Início
+2- Escreva: "Digite um número de 0 a 10:"
+3- Leia n
+
+#Processamento 
+4- Digito1 = n - 1 # Calcula o primeiro dígito (dezena) da multiplicação 9×n
+5- Digito2 = 10 - n # Calcula o segundo dígito (unidade) da multiplicação 9×n
+6- Digito1 = Digito1 * 10 # Multiplica Digito1 por 10 para obter a dezena da multiplicação 9×n
+7- Resultado = Digito1 + Digito2 #Resultado final
+
+#Saída
+8- Escreva: "O resultado final da multiplicação 9×"n "é" Resultado
+9- Fim
